@@ -1,0 +1,7 @@
+{
+    "welcome": "Welcome to the Python Weather Script!",
+    "enter_city": "Please enter the name of the city you want to check the weather for:",
+    "selected_city": "You have selected: {city}",
+    "weather_success": "The current weather in {city} is '{weather}' with a temperature of {temperature}°C.",
+    "weather_error": "Sorry, I couldn't fetch the weather for {city}. Please check the city name and try again."
+}
