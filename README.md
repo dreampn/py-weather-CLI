@@ -18,13 +18,13 @@ Temperature is displayed in Celsius.
 
 ## Requirements / ความต้องการ
 - Python 3.x
-- Requests library (สามารถติดตั้งได้ด้วยคำสั่ง `pip install requests`)
+- Requests library (สามารถติดตั้งได้ด้วยคำสั่ง ```pip install requests```)
 - OpenWeatherMap API Key (สามารถสมัครได้ที่ [OpenWeatherMap](https://openweathermap.org/))
 
 ## วิธีการใช้งาน
 
 1. ติดตั้ง dependencies ด้วยคำสั่ง:
-pip install requests
+```pip install requests```
 
 2. สร้างไฟล์ JSON สำหรับภาษาที่ต้องการใช้งานในโฟลเดอร์ `locales/` เช่น `en.json` และ `th.json`
 
