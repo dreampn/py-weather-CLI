@@ -18,8 +18,8 @@ city = input(messages["enter_city"])
 print(messages["selected_city"].format(city=city))
 
 def get_weather(city):
-    api_key = "YOUR_API_KEY" ##PUT YOUR  API KEY HERE
-    base_url = "http://api.openweathermap.org/data/2.5/weather" ##BASE URL  
+    api_key = "YOUR_API_KEY" ##YOUR API KEY 
+    base_url = "http://api.openweathermap.org/data/2.5/weather" ##BASED URL  
     response = requests.get(base_url, params={"q": city, "appid": api_key, "units": "metric"})
     if response.status_code == 200:
         data = response.json()
